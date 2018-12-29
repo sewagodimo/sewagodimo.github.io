@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Sunshine in my code</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/logo-dark.png"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/logo.png" alt="Asentus Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#talks">Talks</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#projects">Projects</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#modeling">Modeling</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#blog">Blog</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                </ol>
+            </div>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive" src="img/modeling/lagos.jpeg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h3 class="carousel-title" style="text-align: right;">
+                                    SUNSHINE IN MY CODE
+                                </h3>
+                                <h3 class="color-white">Sewagodimo Matlapeng</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive slider-img" src="img/banner/talk2.JPG" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h2 class="carousel-title">Technical Speaker</h2>
+
+                            </div>
+                            <a href="#talks" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Talks</a>
+                        </div>
+                    </div>
+
+                </div>
+             <div class="item">
+                    <img class="img-responsive slider-img" src="img/banner/speaker.JPG" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h2 class="carousel-title">Passionate about education</h2>
+
+                            </div>
+                            <a href="#project" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Buza Answers</a>
+                        </div>
+                    </div>
+
+                </div>
+            <div class="item">
+                    <img class="img-responsive slider-img" src="img/banner/womenC.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h2 class="carousel-title">Women leaders in tech</h2>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="content-lg container">
+                                    <div class="">
+                        <div class="">
+                            <h1 style="color: grey">Sewagodimo Matlapeng</h1>
+                        </div>
+                    </div>
+                <!-- Masonry Grid -->
+                <div class="masonry-grid row">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                    <div class="margin-20">
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 ">
+                        <div class="margin-b-30">
+                            <h2>The Art Of Coding</h2>
+                            <p>Undergraduate: Computer Science| Machine
+                         Learning and 3D Gaming at the University of Cape Town.
+                         Honors:Computer Science Degree.
+                         <br> Experience: Python+web development | Docker containers 🌻
+                        <br> 2019 Tech goals: Reactjs and refining my machine learning skills</p>
+                        </div>
+                    </div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="margin-b-60">
+                            <img class="full-width img-responsive wow fadeInUp" src="img/logo.png" alt="Portfolio Image" data-wow-duration=".3" data-wow-delay=".3s">
+                        </div>
+                        <h2>Community Leader</h2>
+                        <p>I am the co-lead for developer circles from Facebook| I also organise the women in computer science hackathon in Cape Town| I love programming and I want to share my passion with the world.</p>
+                    </div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 sm-margin-b-20">
+                        <div class="margin-t-20">
+                            <h2>Inclusivity advocate</h2>
+                            <p>I have founded the groups Indoni Space and Women@DevC.
+                            <br>Indoni spaces is a mentor-mentee group for Black womxn developers in South Africa. The group has started this year and has over 40 women from Cape Town, Johannesburg, Pretoria and Durban.
+                            <br>Women@DevC is an inclusivity group for the women deverlopers who are tech community leaders in 15 SSA countries.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Masonry Grid -->
+            </div>
+
+                <div class="content-lg " id="talks">
+            <div class="talk-container">
+                    <div class="row">
+                    <div class="col-md-5 col-sm-5 md-margin-b-30 ">
+                        <div class="btn-theme btn-theme-sm btn-white-brd text-uppercase">
+                            <h2>Talks</h2>
+                        </div>
+                    </div>
+                        <div class="col-md-5 col-sm-7 col-md-offset-2">
+                            <!-- Accordion -->
+                            <div class="accordion">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div>
+                        <h4 class="panel-title">
+                        Getting your python web app ready for production</h4>
+                        <p> 2018, Cape Town Python User Group</p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div>
+                        <h4 class="panel-title">
+                        Getting your python web app ready for production</h4>
+                        <p> 2018, PyConZa, Johannesburg</p>
+                    </div>
+                </div>
+                <!--- Another talk -->
+            <div class="panel panel-default">
+                    <div>
+                        <h4 class="panel-title">
+                        Writing industry standard Python Code</h4>
+                        <p> 2018, Start up- Developer's Summit, Lagos</p>
+                    </div>
+                </div>
+            <div class="panel panel-default">
+                    <div>
+                        <h4 class="panel-title">
+                        Moderating a women in Tech Panel</h4>
+                        <p class="service-icon icon-symbol-female"></p>
+                        <p> 2018, Developer Circle Leads Summit by Facebook</p>
+                                        </div>
+                                    </div>
+             <div class="panel panel-default">
+                    <div>
+                        <h4 class="panel-title">
+                        Python Web Development: Coming in 2019</h4>
+                        <p> 2019, DevConf, Joburg and Cape Town</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Accodrion -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- End About -->
+
+        <!-- Latest Products -->
+        <div id="projects">
+            <div class="content-lg container">
+                <div class="row margin-b-30">
+                    <div class="col-sm-6">
+                        <h2>Latest Projects</h2>
+                        <p>The projects listed below are Open Source and for good, feel free to contact me if you want to contribute</p>
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <div class="row">
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="img-responsive" src="img/tech/buza.png" alt="Buza Website Image">
+                        </div>
+                        <h4><a>Buza Answers</a></h4>
+                        <span class="text-uppercase margin-l-20">Web Development</span>
+                        <p>A Q%A site for high school learns in South Africa to ask questions with for to a particular subject. Students will also be alble to recieve career advice on the application. It is currently under development.</p>
+                        <a class="link" href="https://github.com/buza-project/buza-website" target="_blank">See source code</a>
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="img-responsive" src="img/tech/indoni.png" alt="Indoni Space  Image">
+                        </div>
+                        <h4><a>Indoni Space</a></h4> <span class="text-uppercase margin-l-20">Women of Color In Tech</span>
+                        <p>Indoni Space is a space for celebrating the existance of women of color in tech, providing support and mentorship for the women in the group. We believe that through support and mentorship women of color in tech rules can thrive</p>
+                        <a class="link" href="https://www.facebook.com/groups/503453546797305/" target="_blank">Visit facebook page</a>
+                    </div>
+                    <!-- End Latest Products -->
+
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <img class="img-responsive" src="img/logo-youtube.png" alt="Latest Products Image">
+                        </div>
+                        <h4><a href="#">Youtube Channel</a></h4>
+                        <p>I am starting a youtube channel in 2018, I will be sharing my experiences, learnings. I will be doing beginner python tutorials</p>
+                        <a class="link" href="#contact">Learn more</a>
+                    </div>
+                    <!-- End Latest Products -->
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End Projects-->
+
+        <!-- Modeling -->
+        <div id="modeling">
+            <div class="section-seperator">
+                <div class="content-md container">
+                    <div class="row margin-b-40">
+                        <div class="">
+                            <h2>Aspiring Model☀️</h2>
+                            <p>After a couple of successful shoots I have decided to give modeling a shot. Check out my <a href="https://www.instagram.com/matlapeng/" target="_blank">instagram📷</a> </p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <!-- Modeling Grid -->
+                    <div class="masonry-grid row">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-30">
+                            <!-- Modeling IMages -->
+                            <div class="work work-popup-trigger" id="image1">
+    <div class="work-overlay">
+        <img class="full-width img-responsive" src="img/modeling/lagos.jpeg" alt="Portfolio Image">
+    </div>
+    <div class="work-popup-overlay">
+        <div class="work-popup-content">
+            <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+            <div class="margin-b-30">
+                <h3 class="margin-b-5">Lagos sunshine</h3>
+                <span>Simple Ambient smile</span>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                    <div class="margin-t-10 sm-margin-t-0">
+                        <p>Taken during a coffee Break at Techcrunch startup battlefield in Lagos 2018.</p>
+                        <p>A gentle reminder that sometimes magic happens when we least expect it</p>
+                        <ul class="list-inline work-popup-tag">
+                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Techcrunch,</a></li>
+                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Modeling,</a></li>
+                            <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="margin-t-10 sm-margin-t-0">
+                        <p class="margin-b-5"><strong>Photographer:</strong> Chima </p>
+                        <p class="margin-b-5"><strong>Date:</strong> 2018, December</p>
+                        <p class="margin-b-5"><strong>Location:</strong> Tech Crunch</p>
+                    </div>
+                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-30">
+        <!-- Work -->
+        <div class="work work-popup-trigger">
+            <div class="work-overlay">
+                <img class="full-width img-responsive" src="img/modeling/sunshine.jpg" alt="Portfolio Image">
+            </div>
+            <div class="work-popup-overlay">
+                <div class="work-popup-content">
+                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                    <div class="margin-b-30">
+                        <h3 class="margin-b-5">Icecold Sunshine</h3>
+                        <span>A radient &amp; smile that cuts through the cold</span>
+                    </div>
+        <div class="row">
+            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                <div class="margin-t-10 sm-margin-t-0">
+                    <p>Taken during the annual event by my collegue who is into photography. She made me sit on the little boat at the vyneyard and told me to just smile.</p>
+
+                    <ul class="list-inline work-popup-tag">
+                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Vyneyard,</a></li>
+                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Smile,</a></li>
+                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Cover</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="margin-t-10 sm-margin-t-0">
+                    <p class="margin-b-5"><strong>Photographer:</strong> Liezyl Lewis</p>
+                    <p class="margin-b-5"><strong>Date:</strong> 2018, November</p>
+                    <p class="margin-b-5"><strong>Location:</strong> The Cape Vyneyards, Cape Town</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+<div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30">
+    <!-- Work -->
+    <div class="work work-popup-trigger">
+        <div class="work-overlay">
+            <img class="full-width img-responsive" src="img/modeling/moshal.jpeg" alt="Portfolio Image">
+        </div>
+        <div class="work-popup-overlay">
+            <div class="work-popup-content">
+                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                <div class="margin-b-30">
+                    <h3 class="margin-b-5">Magazine girl</h3>
+                    <span>Sunday Morning Bliss</span>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                        <div class="margin-t-10 sm-margin-t-0">
+                            <p>I woke up early on a Sunday morning and put on one my favourite sweeters for a shoot at UCT for the Moshal Scholarship Alumni Cover.</p>
+                            <p>I was really happy during this shoot because I made it time to be early for church</p>
+                            <ul class="list-inline work-popup-tag">
+                                <li class="work-popup-tag-item"><a class="work-popup-tag-link">UCT,</a></li>
+                                <li class="work-popup-tag-item"><a class="work-popup-tag-link" ">Magazine,</a></li>
+                                <li class="work-popup-tag-item"><a class="work-popup-tag-link">Bliss</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="margin-t-10 sm-margin-t-0">
+                            <p class="margin-b-5"><strong>Photographer:</strong> Debbie</p>
+                            <p class="margin-b-5"><strong>Date:</strong> 2018, July</p>
+                            <p class="margin-b-5"><strong>Location:</strong> Sarah Burtman Hall, UCT</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+<div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30">
+    <div class="work work-popup-trigger" id="image1">
+        <div class="work-overlay">
+            <img class="full-width img-responsive" src="img/modeling/side.jpeg" alt="Portfolio Image">
+        </div>
+        <div class="work-popup-overlay">
+            <div class="work-popup-content">
+                <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                <div class="margin-b-30">
+                    <h3 class="margin-b-5">Lagos sunshine</h3>
+                    <span>Simple Ambient smile</span>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                        <div class="margin-t-10 sm-margin-t-0">
+                            <p>Taken during a coffee Break at Techcrunch startup battlefield in Lagos 2018.</p>
+                            <p>A gentle reminder that sometimes magic happens when we least expect it</p>
+                            <ul class="list-inline work-popup-tag">
+                                <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Techcrunch,</a></li>
+                                <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Modeling,</a></li>
+                                <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="margin-t-10 sm-margin-t-0">
+                            <p class="margin-b-5"><strong>Photographer:</strong> Chima </p>
+                            <p class="margin-b-5"><strong>Date:</strong> 2018, December</p>
+                            <p class="margin-b-5"><strong>Location:</strong> Tech Crunch</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                            <!-- Work -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/modeling/judge.jpg" alt="Portfolio Image">
+                                </div>
+                                <div class="work-popup-overlay">
+                                    <div class="work-popup-content">
+                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                        <div class="margin-b-30">
+                                            <h3 class="margin-b-5">Camera Shy</h3>
+                                            <span>Trying not to be awkward.</span>
+                                        </div>
+<div class="row">
+    <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+        <div class="margin-t-10 sm-margin-t-0">
+            <p>Caught between not wanting to take the picture and not wanting to look bad in the picture.</p>
+            <p>While I was judging a Hackathon for where is my transport, one of the organisers tried to "capture my smile" but I wasn't co-operating. The output was still good</p>
+
+            <ul class="list-inline work-popup-tag">
+                <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Awkward,</a></li>
+                <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Hackathon Judge,</a></li>
+                <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Side</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="margin-t-10 sm-margin-t-0">
+            <p class="margin-b-5"><strong>Photographer:</strong> My Mamma</p>
+            <p class="margin-b-5"><strong>Date:</strong> 2018, October</p>
+            <p class="margin-b-5"><strong>Event:</strong> Where is my transport Hackathon</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+<div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+<!-- Work -->
+<div class="work work-popup-trigger">
+<div class="work-overlay">
+    <img class="full-width img-responsive" src="img/modeling/beach.jpeg" alt="Portfolio Image">
+</div>
+            <div class="work-popup-overlay">
+                <div class="work-popup-content">
+                    <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                    <div class="margin-b-30">
+                        <h3 class="margin-b-5">Art Of Beach Bumming</h3>
+                        <span>The Simple, Beautiful Act Of Bumming at the Beach</span>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
+                <div class="margin-t-10 sm-margin-t-0">
+                    <p>My mother took these pictures as I was just bumming out at the beach, a day before my graduation</p>
+
+                    <ul class="list-inline work-popup-tag">
+                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Beach,</a></li>
+                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Mommy time,</a></li>
+                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
+                    </ul>
+                                                </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="margin-t-10 sm-margin-t-0">
+                                <p class="margin-b-5"><strong>Photographer:</strong> My Mamma</p>
+                                <p class="margin-b-5"><strong>Date:</strong> 2018, April</p>
+                                <p class="margin-b-5"><strong>Location:</strong> Camps Bay</p>
+                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                    </div>
+                    <!-- End Modeling -->
+                </div>
+            </div>
+
+        <!-- BLOGGING -->
+        <div id="blog">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="content-lg container">
+                    <div class="row margin-b-40">
+                        <div class="">
+                            <h2>Blogging☀️</h2>
+                            <p>"If you don't write your own story, someone else will" </p>
+                            <p>
+                            follow me on <a href="https://medium.com/@matlapeng" target="_blank">medium</a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row row-space-2 margin-b-2">
+                        <div class="col-sm-4 sm-margin-b-1">
+                            <div class="service" data-height="height" style=" border: 2px solid lightgrey;border-radius: 5px;">
+                                <div class="service-element">
+                                    <i class="service-icon icon-flag"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Rethinking “Cultural Fit” And What It Means For Diversity</h3>
+                                   <a >Medium post,
+                                    20 Nov, 2018, 618 👏</a>
+                                     <ul class="blog_meta list">
+                                        <ul class="list-inline work-popup-tag">
+                                        <li class="work-popup-tag-item">
+                                    <a class="link" href="https://medium.com/mobileforgood/rethinking-cultural-fit-and-what-it-means-for-diversity-36fe3a2163b" class="blog_btn" target="blank">Read article</a>
+                                </div>
+                            </div>
+                        </div>
+            <div class="col-sm-4 sm-margin-b-1">
+                <div class="service bg-color-base" data-height="height" style=" border: 2px solid lightgrey;border-radius: 5px;">
+                    <div class="service-element">
+                        <i class="service-icon icon-notebook" style="color: white;"></i>
+                    </div>
+                    <div class="service-info">
+                        <h3 style="color: white;">To inclusivity and beyond,
+                        Coming soon</a>
+                         <ul class="blog_meta list">
+                            <ul class="list-inline work-popup-tag">
+                            <li class="work-popup-tag-item">
+                        <a class="link">2nd week of Jan</a>
+                    </div>
+                </div>
+            </div>
+                        <div class="col-sm-4">
+                            <div class="service" data-height="height" style=" border: 2px solid lightgrey;border-radius: 5px;">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                        <div class="service-info">
+                            <h3>Getting Ready For Your First Conference Talk: A Junior Developer’s Guide</h3>
+                           <a >Medium post,
+                            17 Oct, 2018. 230 👏</a>
+                             <ul class="blog_meta list">
+                                <ul class="list-inline work-popup-tag">
+                                <li class="work-popup-tag-item">
+                            <a href="https://medium.com/mobileforgood/getting-ready-for-your-first-conference-talk-a-junior-developers-guide-e61ffca6ec9e" target="blank">Read article</a>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row row-space-2">
+                    <div class="col-sm-4 sm-margin-b-1" >
+                            <div class="service" data-height="height" style=" border: 2px solid lightgrey;border-radius: 5px;">
+                                <div class="service-element">
+                                    <i class="service-icon icon-eyeglasses"></i>
+                                </div>
+                               <div class="service-info">
+                            <h3>My First 3 Months as a Software Engineer</h3>
+                           <a >Medium post,
+                            21 April, 2018. 400 👏</a>
+                             <ul class="blog_meta list">
+                                <ul class="list-inline work-popup-tag">
+                                <li class="work-popup-tag-item">
+                            <a href="https://medium.com/mobileforgood/my-first-3-months-as-a-software-engineer-developer-6cf82c711637" target="blank">Read article</a>
+                        </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-1">
+                            <div class="service" data-height="height" style=" border: 2px solid lightgrey;border-radius: 5px;">
+                                <div class="service-element">
+                                    <i class="service-icon icon-symbol-female"></i>
+                                </div>
+                                <div class="service-info">
+                            <h3>My Journey as a woman in tech</h3>
+                           <a >Medium post,
+                            Sep, 2017. 690 👏</a>
+                             <ul class="blog_meta list">
+                                <ul class="list-inline work-popup-tag">
+                                <li class="work-popup-tag-item">
+                            <a href="https://medium.com/tech-for-good-za/my-journey-as-a-woman-in-tech-3961eaab72ca" target="blank">Read article</a>
+                        </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="service" data-height="height" style=" border: 2px solid lightgrey;border-radius: 5px;">
+                                <div class="service-element">
+                                    <i class="service-icon icon-handbag"></i>
+                                </div>
+                                <div class="service-info">
+                            <h3>Black Tax: Thrive, Survive or Sink</h3>
+                           <a >Medium post,
+                            Jan, 2019</a>
+                             <ul class="blog_meta list">
+                                <ul class="list-inline work-popup-tag">
+                                <li class="work-popup-tag-item">
+                            <a href="https://medium.com/tech-for-good-za/my-journey-as-a-woman-in-tech-3961eaab72ca" target="blank">Read article</a>
+                        </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+
+        <!-- End BLOGGING -->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <!-- Links -->
+            <div style="background-color:#ffc107;color: color ">
+                <div class="content-md container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Sewagodimo Matlapeng © 2019. All rights reserved. Terms of use and Privacy Policy
+                        </div>
+                        <div class="col-sm-6">
+                            <!-- List -->
+                            <div class="list-unstyled footer-list">
+                                <a href="https://www.facebook.com/sewagodimo.matlapeng" class="fa fa-facebook" target="_blank"></a>
+                                <a href="#" class="fa fa-youtube" target="_blank"></a>
+                                <a href="https://www.linkedin.com/in/sewagodimo-matlapeng-b502b9103/" class="fa fa-linkedin" target="_blank"></a>
+                                <a href="https://www.instagram.com/matlapeng/" class="fa fa-instagram" target="_blank"></a>
+                                <a href="https://twitter.com/Sewagodimo_M" class="fa fa-twitter" target="_blank"></a>
+                            </div>
+                            <!-- End List -->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </footer>
+            <!-- End Links -->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    </body>
+    <!-- END BODY -->
+</html>

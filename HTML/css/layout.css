@@ -1013,7 +1013,8 @@ fieldset[disabled] .btn-theme {
 
 .carousel-centered {
   position: absolute;
-  top: 50%;
+  top: 40%;
+  left: 40%;
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
@@ -1026,17 +1027,26 @@ fieldset[disabled] .btn-theme {
   transform: translate3d(0, -50%, 0);
 }
 
+.carousel-subtitle {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
 .carousel-title {
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 700;
   color: #fff;
+  padding: 0px 10px;
+  background: #ffc107;
   line-height: 1.1;
   text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
   .carousel-title {
-    font-size: 60px;
+    font-size: 30px;
   }
 }
 
@@ -1599,4 +1609,18 @@ fieldset[disabled] .btn-theme {
 }
 .fa-instagram {
   color: white;
+}
+.fa-github {
+  padding: 0px;
+  font-size: 60px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+hr {
+  width: 35%;
+  border:0;
+  border-top: 1px solid #ffc107;
 }

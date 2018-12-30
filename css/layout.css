@@ -1000,6 +1000,12 @@ fieldset[disabled] .btn-theme {
   height: 80%;
 }
 
+@media (max-width: 600px) {
+  .full-screen {
+    background-attachment: initial;
+  }
+}
+
 /*------------------------------------------------------------------
     [Carousel | Text on the center og home
 ------------------------------------------------------------------*/
@@ -1033,6 +1039,11 @@ fieldset[disabled] .btn-theme {
   font-weight: bold;
   font-size: 22px;
 }
+@media (max-width: 600px) {
+  .carousel-centered{
+    left: 20%;
+  }
+}
 
 .carousel-title {
   font-size: 40px;
@@ -1047,6 +1058,7 @@ fieldset[disabled] .btn-theme {
 @media (max-width: 768px) {
   .carousel-title {
     font-size: 30px;
+
   }
 }
 
